@@ -15,7 +15,7 @@ Currently working on:
 - AI-driven early warning systems for pacemaker malfunction detection
 - Synthetic ECG generation using GANs to address clinical data scarcity
 - Federated learning for privacy-preserving distributed model training
-- NLP research comparing LoRA fine-tuning, RAG, and prompt engineering for personalized dialogue generation *(paper submitted April 2026)*
+- NLP research comparing LoRA fine-tuning, RAG, and prompt engineering for personalized dialogue generation 
 
 ---
 
@@ -29,7 +29,7 @@ Production RAG system for medical document Q&A with hybrid retrieval and evaluat
 - Citation tracing — every answer links back to the exact source passage
 - Deployed on Render · Stack: Python, LangChain, ChromaDB, RAGAS, Groq API, Streamlit
 
-### 🤖 Medical Evidence Agent *(In Progress)*
+### 🤖 Medical Evidence Agent 
 Production-grade multi-agent system built on top of the Medical RAG Assistant
 
 - LangGraph 3-agent workflow: Retrieval Agent → Reasoning Agent → Safety Agent
@@ -37,7 +37,7 @@ Production-grade multi-agent system built on top of the Medical RAG Assistant
 - Pydantic structured outputs with confidence scores and LLM-as-judge quality scoring
 - FastAPI async backend · JWT auth · PostgreSQL · LangSmith · MLflow · AWS S3 · Docker · GitHub Actions CI/CD
 
-### 📝 Personalized Dialogue LLM — Comparative Study
+### 📝 PersonWeave — Comparative Study
 NLP research comparing three LLM adaptation approaches · *Paper submitted April 2026*
 
 - Comparing prompt engineering vs RAG vs LoRA fine-tuning for personality-conditioned dialogue
